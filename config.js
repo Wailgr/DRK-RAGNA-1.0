@@ -20,7 +20,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnIC
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
 global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "212718398196";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -31,7 +31,7 @@ global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/yBSoUuw.jpeg,https://i.imgur.com/XrUDzUl.jpeg,https://i.imgur.com/edjZiEx.jpeg,https://i.imgur.com/cdS2R7I.jpeg,https://i.imgur.com/u9FxdwH.jpeg,https://i.imgur.com/HEFIrto.jpeg,https://i.imgur.com/Fc0gIpE.jpeg,https://i.imgur.com/iaJtsma.jpeg,https://i.imgur.com/17yE9Uy.jpeg,https://i.imgur.com/ERGVvpZ.png"
 global.waPresence = process.env.WAPRESENCE || " ";
 global.readcmds = process.env.READ_COMMAND || "true";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -43,7 +43,7 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkpiTDQ5NzVRUFgwOFZVYU5rZlFGVWYvYlkxMXdNTFRsdGtPK1ZNVDgwZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYjdMbTBFK2t3T044K25uVkJNR0FiZ2tFWDNLYzFoaXNIVkQzU3gxYlFtbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFT0VUZkZGbzBWa3BqV1pQMGhId0ZiRFA3dVMxZ2c5M3BuZm9ZT3RRT0c0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQTm52MC9RaWdwcStiWlJSUXFJZW9YQ1I2Z0lGdkd4UW5EMkN0dkxxTDFzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlCVlBvZXpUVTZxNDZ3Y1h5NVRRRzNSa25UcHVwK3QrRjNTaTlFS2JXSG89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFiWmJJczI0ZDNPWmxiajlXRnQ5RytDZGxvWVQ5alVXcWU2MDBqZ1pIMEU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0Q5dmIxUnpJWTRCeHB5Q0h5Mzh1UVkwM2hPWmJKYnB4MEs3V0QrdHJrTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNmVBcVNEbkxnVTZXZjBKRFE0OG14YWZDYUdhTVZ2eXFtV202Rk45VFRuaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkhvN09OZ05IakhFdC9WcWcxd21yNWN6TVd0czVMeWc4QUNUdkl0M05ZRXJZV2xZTTRsYnNWUkdSRGFVVzVDb2FrVmpCWGpTQnBxTDNNWURBZUVtcmdnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTEsImFkdlNlY3JldEtleSI6IlhzOXJONFdFVkFqRVpDMDcxK001bkJTNDU1R0o0OEJ0cUJrVXNBaDJMNjQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjEyNzE4Mzk4MTk2QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkMwNjE2Qzk5QzQ3QTFCMzNEOTkxQzJEMjIyQUE3MjAyIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzgwMzg0MTh9LHsia2V5Ijp7InJlbW90ZUppZCI6IjIxMjcxODM5ODE5NkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJBMEVDNkNCQTg2RjVEN0Q1NDVDNDA4MTA5NkEwNDNCQiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzM4MDM4NDE4fV0sIm5leHRQcmVLZXlJZCI6NjEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjo2MSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJUemdqTGxvRVF1cUQ3MkFyU043aU5RIiwicGhvbmVJZCI6Ijg4ZmViMmUxLTZmODEtNDE1OS1hNmZlLWU0ZDE0ODdmMzVmYSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQWlFQQ3FMOUpqaHdDZ2JaVDVnakVxOXpuRTg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU1hwSDNSU05RMG9tdzU0ZjBWRTczd0UxZ0dnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjJEUzhNMTNTIiwibWUiOnsiaWQiOiIyMTI3MTgzOTgxOTY6MTlAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiU0lMRU5ULVNPQlgtTUQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1AvZGsvUUJFSU81NGJ3R0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ii9tNC9GaUQwZUxmV2Z0MlVveUpMKytjajRiQ0daVlRzSXZpWW9kS29aMlU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkVTL3BjbkVvT0c3cGYxQkNSTzVDeWw0SlNpUWp3cEU3MDg2dUJVNk5kSnhnMkhoWnBWdXd1RlFVR2pPYVRTYmhPbC9RQS9YelkvOFpIQW4vUDMxVEFRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJNUXZRT3RCazIzNjF0STlOYXdLMzk2WVg0NEVickRNeFhGckZKa21SbW5pdExqb3c0OFFqZzBaL1N6UkJVaEVEWUFKSm5CRWxtZS9pYnNvQmsvdndpUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIxMjcxODM5ODE5NjoxOUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJmNXVQeFlnOUhpMzFuN2RsS01pUy92bkkrR3dobVZVN0NMNG1LSFNxR2RsIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM4MDM4NDE2LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUFteSJ9"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
